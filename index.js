@@ -9,11 +9,17 @@ fs.readFile(path.join(__dirname, "lorem.txt"), "utf-8", (err, data) => {
   }
 });
 
-process.on("uncaughtException", (err) => {
-  console.log("there was an uncaught error");
-  process.exit(1);
-});
+// process.on("uncaughtException", (err) => {
+//   console.log("there was an uncaught error");
+//   process.exit(1);
+// });
 
 fs.writeFile(path.join(__dirname, "hi.txt"), "hello node", (err) =>
-  console.err(err)
+  console.error(err)
+);
+
+fs.appendFile(
+  path.join(__dirname, "hi.txt"),
+  "\n\n i am recaping node",
+  (err) => console.log(err)
 );
