@@ -1,0 +1,10 @@
+{
+                        &quot;desktopSrc&quot;: &quot;//images.samsung.com/is/content/samsung/assets/us/homepage/hp/07292025/Galaxy-Z-Fold7_Home_Hero_PC_1920x1080_LTR.mp4&quot;,
+                        &quot;mobileSrc&quot;: &quot;//images.samsung.com/is/content/samsung/assets/us/homepage/hp/07292025/Galaxy-Z-Fold7_Home_Hero_MO_720x1248.mp4&quot;,
+                        &quot;title&quot;: &quot; Galaxy Z Fold7&quot;,
+                        &quot;caption&quot;: &quot;&quot;,
+                        &quot;muted&quot;: true,
+                        &quot;autoplay&quot;: true,
+                        &quot;loop&quot;: true,
+                        &quot;controls&quot;: false
+                    }
